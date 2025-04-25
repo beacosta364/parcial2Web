@@ -129,3 +129,67 @@ body {
   background-color: #ff4000;
   border: none;
 }
+
+
+/* section 2 */
+.cards-section2 {
+    background-color: #5a4cb1; /* morado de fondo */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #e5c256; /* amarillo dorado */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 15px 10px 5px;
+    color: #000;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 0 10px 10px;
+    color: #111;
+}
+
+.card .btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    margin: 15px 0 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.card .btn:hover {
+    color: #ff003c;
+}
